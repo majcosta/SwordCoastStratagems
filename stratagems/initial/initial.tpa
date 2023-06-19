@@ -711,6 +711,7 @@ DEFINE_ACTION_FUNCTION install_spell_core BEGIN
    // definition blocks
    ACTION_DEFINE_ASSOCIATIVE_ARRAY spell_install BEGIN
            modify_breach => dw#breach
+           modify_lich_and_rakshasa => dw#lich_and_rakshasa
            web_and_the_large => dw#web_large
            elemental_area_immunity=>dw#elem_area_immune
            fiend_summoning=>dw#fiend_summoning
